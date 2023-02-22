@@ -1,0 +1,11 @@
+<div class="movies">
+    <div *ngFor="let movie of movies" class="movie">
+        <div class="align-center">
+            <a routerLink="/{{movie.id}}">
+                <img src="{{movie.poster}}" width="250px">
+                <p class="link">{{movie.name}}</p>
+            </a>
+            <button class="delete" (click)="deleteMovie(movie)">Delete</button>
+        </div>
+    </div>
+</div>

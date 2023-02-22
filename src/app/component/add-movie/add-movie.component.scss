@@ -1,0 +1,31 @@
+@import "../../app.component.scss";
+
+.form {
+    background-color: white;
+    padding: 25px;
+    padding-top: 10px;
+    border-radius: 2.5rem;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    & button {
+        background-color: $primary;
+        padding: 10px;
+        border-radius: 1.5rem;
+        border: transparent;
+        color: white;
+        font-size: 17px;
+        width: 150%;
+    }
+}
