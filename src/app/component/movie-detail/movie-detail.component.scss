@@ -1,0 +1,38 @@
+@import "../../app.component.scss";
+@import "../add-movie/add-movie.component.scss";
+
+.details {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 2.5rem;
+    border: solid;
+    color: $primary;
+    background-color: black;
+    display: grid;
+    max-width: 60%;
+    gap: 15px;
+}
+
+img {
+    border-radius: 1rem;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 10px;
+}
+
+.txt-white {
+    color: white;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}

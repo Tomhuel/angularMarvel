@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angular_Marvel": {
+    "angularMarvel": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Angular_Marvel:build:production"
+              "browserTarget": "angularMarvel:build:production"
             },
             "development": {
-              "browserTarget": "Angular_Marvel:build:development"
+              "browserTarget": "angularMarvel:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Angular_Marvel:build"
+            "browserTarget": "angularMarvel:build"
           }
         },
         "test": {

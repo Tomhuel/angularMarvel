@@ -1,0 +1,29 @@
+@import "../../app.component.scss";
+
+footer {
+  background-color: $primary;
+  display: grid;
+  place-items: center;
+  padding: 15px;
+  height: 14vh;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    color: white;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    color: blue;
+  }
+}

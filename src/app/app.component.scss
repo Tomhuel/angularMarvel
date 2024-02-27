@@ -1,0 +1,12 @@
+/* Variables */
+
+$primary: #ee171f;
+$secondary: #fff;
+
+.body {
+  background-image: url("../assets/images/sPeterMan.jpg");
+  margin: 0;
+  min-height: calc(100vh - 35vh);
+  display: flex;
+  justify-content: center;
+}

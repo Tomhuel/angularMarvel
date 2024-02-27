@@ -1,0 +1,16 @@
+<div class="form">
+    <h1>Update {{movie.name}}</h1>
+    <form (submit)="updateMovie(this.id)">
+        <label>Title</label>
+        <input type="text" id="movieTitle" value="{{movie.name}}" required>
+        <label>Poster</label>
+        <input type="text" id="moviePoster" value="{{movie.poster}}" required>
+        <label>Release Date</label>
+        <input type="text" id="movieDate" value="{{movie.date}}" required>
+        <label>Description</label>
+        <textarea id="movieDescription" value="{{movie.description}}" required></textarea>
+        <div class="button">
+            <button type="submit">Update</button>
+        </div>
+    </form>
+</div>

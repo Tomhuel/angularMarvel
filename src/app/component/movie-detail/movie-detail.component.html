@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="details">
+        <div>
+            <h1 class="txt-white bold">{{movieDetail.name}}</h1>
+        </div>
+        <div class="content">
+            <div>
+                <img src="{{movieDetail.poster}}" width="700px"/>
+            </div>
+            <div class="data">
+                <h2 class="txt-white">Description</h2>
+                <p class="txt-white">{{movieDetail.description}}</p>
+                <h2 class="txt-white">Release Date</h2>
+                <p class="txt-white">{{movieDetail.date}}</p>
+            </div>
+        </div>
+        <div class="button">
+            <button routerLink="/update/{{movieDetail.id}}">Update</button>
+            <button routerLink="">Volver</button>
+        </div>
+    </div>
+</div>
